@@ -1,0 +1,40 @@
+body
+{
+    background: linear-gradient(to bottom right,red, orange, yellow, rgb(53, 223, 53), rgb(78, 198, 245), rgb(129, 23, 204), violet);
+    font-family: 'David Libre', serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.header_div
+{
+   font-family: cursive;
+   font-weight: bolder;
+}
+
+h4
+{
+    font-family: cursive;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.main_div button
+{
+    font-family: cursive;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: linear-gradient(to bottom right, red, orange, yellow, rgb(118, 243, 118), rgb(107, 198, 235), rgb(115, 42, 167), violet);
+    line-height: 3;
+    text-shadow: 5px 5px 5px rgb(40, 60, 100);
+    font-weight: bolder;
+}

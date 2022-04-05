@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h1>Animal sound recognition</h1>
+      <h4>NOTE:Play different animal sounds to see which animal sound it is</h4>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-danger" onclick="startClassification()">Start</button>
+        <h2 id="result_label">I can Hear- </h2>
+        <h3 id="result_confidence">Accuracy- </h3>
+        <br>
+        <img id="ear" src="ear2.png" id="ear" height="300" width="300">
+      </center>
+      </div>
+      <br>
+      <br>
+      <div class="copy_right_footer">
+        Developed by-Namish Endlay
+      </div>
+<script src="Main.js"></script>
+  </body>
+</html>
